@@ -1,7 +1,7 @@
 ---
 title: ouverture
 ---
-# Introduction
+## Introduction
 Intro
-# Instructions
+## Instructions
 Instructions
