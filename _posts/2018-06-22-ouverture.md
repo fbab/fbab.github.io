@@ -1,7 +1,7 @@
 ---
-title: ouverture
+title: Ouverture de ce site
 ---
 ## Introduction
-Intro
+Ce site est opéré par Github au moyen du _template_ _Minimal Mistakes_.
 ## Instructions
 Instructions
