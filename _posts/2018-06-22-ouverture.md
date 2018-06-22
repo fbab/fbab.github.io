@@ -1,5 +1,5 @@
 ---
-Title: ouverture
+title: ouverture
 ---
 # Introduction
 Intro
