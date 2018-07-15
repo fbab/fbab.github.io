@@ -284,6 +284,7 @@ DEPENDENCIES
   jekyll-paginate
   jekyll-sitemap
   jemoji
+  rake
 
 BUNDLED WITH
    1.16.2
