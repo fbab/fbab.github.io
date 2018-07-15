@@ -12,4 +12,4 @@ group :jekyll_plugins do
 end
 
 gem "rake"
-# ruby "2.4.2"
+ruby "2.5.1"
