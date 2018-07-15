@@ -40,6 +40,10 @@ task :preview do
     "theme"         => "minimal-mistakes-jekyll"
   }
 
+task "assets:precompile" do
+  exec("jekyll build")
+end
+
   options = Jekyll.configuration(options)
 
   ENV["LISTEN_GEM_DEBUGGING"] = "1"
