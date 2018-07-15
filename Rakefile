@@ -30,6 +30,17 @@ def listen_handler(base, options)
   end
 end
 
+
+task :build do
+  system('bundle exec jekyll build')
+end
+
+namespace :assets do
+  task precompile: :build
+end
+
+
+
 task :preview do
   base = Pathname.new('.').expand_path
   options = {
@@ -39,14 +50,6 @@ task :preview do
     "serving"       => true,
     "theme"         => "minimal-mistakes-jekyll"
   }
-
-task :build do
-  system('bundle exec jekyll build')
-end
-
-namespace :assets do
-  task precompile: :build
-end
 
   options = Jekyll.configuration(options)
 
