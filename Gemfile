@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll-auth'
+gem "jekyll-auth"
 gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
@@ -11,4 +11,4 @@ group :jekyll_plugins do
   gem "jemoji"
 end
 
-gem 'rake'
+gem "rake"
