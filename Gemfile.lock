@@ -273,9 +273,6 @@ GEM
       octokit (> 2.1.0)
       warden (> 1.0)
 
-PLATFORMS
-  x64-mingw32
-
 DEPENDENCIES
   github-pages
   jekyll-auth
