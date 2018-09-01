@@ -1,0 +1,50 @@
+id: 2
+etape: bilan
+associe_id: beatrice.baucher
+associe: beatrice.baucher
+title: 'Sejour pour PETCV'
+debut: '2018-04-15'
+fin: '2018-04-17'
+nb_nuitees: 3
+nb_journees: 6
+enfant: 1
+adulte: 2
+couple: 1
+associes:
+    -
+        nom: beatrice
+        statut: couple
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
+    -
+        nom: ''
+        statut: ''
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
+    -
+        nom: achille
+        statut: adulte
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
+    -
+        nom: edgar
+        statut: adulte
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
+    -
+        nom: melissandre
+        statut: endant
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
+invites:
+    -
+        nom: marc
+        statut: adulte
+        presence:
+            - { date: 2018/08/20, details: [1, 1, 1] }
+            - { date: 2018/08/20, details: [1, 1, 1] }
